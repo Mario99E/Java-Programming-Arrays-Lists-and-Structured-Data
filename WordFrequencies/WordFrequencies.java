@@ -71,7 +71,7 @@ public class WordFrequencies
             int n=myFreqs.get(k);
             if(num1<=n && n<+num2)
             {
-                System.out.println(myWords.get(k));
+                System.out.println(myWords.get(k) +"\t" + n);
             }
         }
     }

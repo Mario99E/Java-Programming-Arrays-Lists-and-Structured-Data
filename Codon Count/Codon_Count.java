@@ -68,7 +68,7 @@ public class Codon_Count {
             System.out.println("TOTAL NUM OF UNIQUE IN FRAME: "+DNAmap.size());
             String s=getMostCommonCodon();
             System.out.println("THE MOST COMMON CODON: "+s+"\t"+DNAmap.get(s));
-            printCodonCounts(1,5);
+            printCodonCounts(1,8);
             
         }
     
